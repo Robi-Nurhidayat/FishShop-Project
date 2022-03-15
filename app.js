@@ -3,6 +3,7 @@ const app = express();
 
 // load template for ejs
 app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/public'))
 
 // routing
 
