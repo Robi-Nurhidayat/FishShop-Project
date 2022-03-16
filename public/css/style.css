@@ -8,6 +8,35 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    background-color: aqua;
+
+.navbar {
+    background-color: white !important;
 }
+
+
+.btn-sign-up {
+    background-color: #5352ED;
+}
+
+.btn-sign-up:hover {
+    /* background-color: #4141c4; */
+    background-color: red !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+}
+
+
+.nav-link :active {
+    color: blue !important;
+    font-weight: bold;
+}
+
+#hero-section {
+    background-color: #FF2442;
+    color: white;
+    padding: 0 100px;
+}
+
