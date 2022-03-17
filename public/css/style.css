@@ -40,3 +40,20 @@ body {
     padding: 0 100px;
 }
 
+
+/* section services */
+
+#services {
+    text-align: center;
+    padding-top: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+.item-service {
+    line-height: 30px;
+}
+
+/* end of section services */
