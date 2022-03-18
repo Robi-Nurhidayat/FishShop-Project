@@ -101,7 +101,6 @@ h2 {
     margin-top: 100px;
     color: white;
     padding: 65px 0;
-    box-sizing: border-box;
 }
 
 #footer-section .logo-copyright {
@@ -112,7 +111,6 @@ h2 {
     display: block;
     color: white;
     text-decoration: none;
-    margin: 4px 0;
 }
 
 footer span {
