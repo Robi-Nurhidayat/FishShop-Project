@@ -58,6 +58,13 @@ a.nav-link .active {
     padding: 0 100px;
 }
 
+/* hero section */
+
+#hero-section {
+    height: 100vh;
+}
+
+/* end of hero section */
 
 
 /* section services */
@@ -84,6 +91,27 @@ h2 {
 }
 
 /* end of section best seller */
+
+
+/* section review produk */
+
+#review-produk{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#review-produk .item-service p{
+    margin-top: 5px;
+    text-align: left;
+}
+
+#review-produk .item-service {
+    box-shadow: 6px 6px 10px rgb(221, 216, 216);
+    /* box-shadow: -6px -6px 10px rgb(221, 216, 216); */
+    border-radius: 10px;
+}
+
+/* end of section review produk */
 
 /* halaman produk */
 #search-product {
