@@ -1,3 +1,20 @@
+:root {
+    --primary-color: #5352ED;
+    --primary-color-80 : #7574F0;
+    --primary-color-60 : #9797F4;
+    --primary-color-30 : #CBCBF9;
+    --primary-color-10 : #EDEDFD;
+    --secondary-color: #FF2442;
+    --secondary-color-80: #FF4F67;
+    --secondary-color-60: #FF7B8D;
+    --secondary-color-30: #FFBDC6;
+    --secondary-color-10: #FFE9EC;
+    --text-hitam: #000000;
+    --text-putih: #FFFFFF;
+    --text-abu: #DFE4EA;
+    --text-hitam-opacity: ##323232;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,23 +32,24 @@ body {
 
 
 .btn-sign-up {
-    background-color: #5352ED;
+    background-color: var(--primary-color);
 }
 
 .btn-sign-up:hover {
-    /* background-color: #4141c4; */
-    background-color: red !important;
+    background-color: #4141c4;
 }
 
 .nav-link {
-    color: black !important;
-    font-weight: bold;
+    color: var(--text-hitam);
+    font-weight: 600;
 }
 
+.nav-link:hover {
+    color: var(--primary-color)
+}
 
-.nav-link :active {
-    color: blue !important;
-    font-weight: bold;
+a.nav-link .active {
+    color: var(--primary-color) !important;
 }
 
 #hero-section {
@@ -39,6 +57,7 @@ body {
     color: white;
     padding: 0 100px;
 }
+
 
 
 /* section services */
@@ -57,3 +76,94 @@ h2 {
 }
 
 /* end of section services */
+
+/* halaman produk */
+#search-product {
+    background-image: url('../images/cupang.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+
+.search-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.search-paragraf {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    color: var(--text-putih);
+}
+
+.icon-search {
+    transform: translateY(3px);
+}
+
+.form-search {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-cari {
+    text-align: center !important;
+}
+
+.example-search {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#popular-fish {
+    margin-top: 50px;
+}
+
+.popular-fish-text {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.detail-btn {
+    background-color: var(--primary-color);
+    color: var(--text-putih);
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-top: 15px; */
+    border-radius: 5px;
+}
+
+.detail-btn:hover {
+    color: var(--text-putih);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#popular-fish {
+    margin-bottom: 30px;
+}
+

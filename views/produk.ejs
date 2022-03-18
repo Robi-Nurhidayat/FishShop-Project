@@ -1,9 +1,77 @@
 <%- include('layouts/header') -%>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
 
+    <!-- section search produk -->
+    <section id="search-product">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="search-title">Jelajahi Ikan Hias</h2>
+                    <p class="search-paragraf">Cari Ikan Hias yang anda inginkan</p>
+                    <form action="" method="" class="form-search">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Search the fish"
+                                    aria-label="Search the fish" aria-describedby="search-btn">
+                                <button class="btn primary-btn" type="button" id="search-btn">
+                                    <box-icon name='search' color='white' class="icon-search"></box-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <span class="example-search">Examples: Halfmoon, Goldfish</span>
+                </div>
             </div>
         </div>
+    </section>
 
-        <%- include('layouts/footer') -%>
+    <!-- section popular fish -->
+    <section id="popular-fish">
+        <div class="container">
+            <div class="row">
+                <h4 class="popular-fish-text">Popular Fish</h4>
+                <div class="col">
+                    <div class="card shadow bg-body" style="">
+                        <img src="images/fish/halfmoon.jpg" class="card-img-top" alt="product fish">
+                        <div class="card-body">
+                            <h5 class="card-title">Halfmoon</h5>
+                            <h6 class="card-text">Rp. 100000</h6>
+                            <a href="#" class="btn detail-btn d-grid gap-2">View Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow bg-body" style="">
+                        <img src="images/fish/halfmoon.jpg" class="card-img-top" alt="product fish">
+                        <div class="card-body">
+                            <h5 class="card-title">Halfmoon</h5>
+                            <h6 class="card-text">Rp. 100000</h6>
+                            <a href="#" class="btn detail-btn d-grid gap-2">View Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow bg-body" style="">
+                        <img src="images/fish/halfmoon.jpg" class="card-img-top" alt="product fish">
+                        <div class="card-body">
+                            <h5 class="card-title">Halfmoon</h5>
+                            <h6 class="card-text">Rp. 100000</h6>
+                            <a href="#" class="btn detail-btn d-grid gap-2">View Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow bg-body" style="">
+                        <img src="images/fish/halfmoon.jpg" class="card-img-top" alt="product fish">
+                        <div class="card-body">
+                            <h5 class="card-title">Halfmoon</h5>
+                            <h6 class="card-text">Rp. 100000</h6>
+                            <a href="#" class="btn detail-btn d-grid gap-2">View Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <%- include('layouts/footer') -%>
