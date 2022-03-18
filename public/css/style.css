@@ -77,6 +77,14 @@ h2 {
 
 /* end of section services */
 
+/* section best seller */
+
+#best-seller-section {
+    text-align: center;
+}
+
+/* end of section best seller */
+
 /* halaman produk */
 #search-product {
     background-image: url('../images/cupang.jpg');
