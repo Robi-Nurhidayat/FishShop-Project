@@ -95,7 +95,7 @@ h2 {
 /* footer section */
 
 #footer-section {
-    height: 300px;
+    height: 308px;
     width: 100%;
     background-color: #111111;
     margin-top: 100px;
@@ -105,11 +105,7 @@ h2 {
 }
 
 #footer-section .logo-copyright {
-    margin-top: 30px;
-}
-
-#footer-section .logo-copyright p{
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .footer-item a{
@@ -117,6 +113,24 @@ h2 {
     color: white;
     text-decoration: none;
     margin: 4px 0;
+}
+
+footer span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-heading h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-link a, .footer-link span {
+    margin-bottom: 10px;
+}
+
+.footer-link a:hover {
+    color: var(--primary-color-30);
 }
 /* end of footer section */
 
@@ -188,11 +202,22 @@ h2 {
 
 #popular-fish {
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.popular-fish-text {
+#best-seller, #all-produk {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.produk-row {
+    margin-bottom: 30px;
+}
+
+.heading3-semibold-24 {
     font-weight: 600;
     margin-bottom: 30px;
+    font-size: 24px;
 }
 
 .card-title {
@@ -212,7 +237,6 @@ h2 {
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* margin-top: 15px; */
     border-radius: 5px;
 }
 
@@ -225,8 +249,15 @@ h2 {
     border-top-right-radius: 10px;
 }
 
-
-#popular-fish {
-    margin-bottom: 30px;
+.btn-load {
+    background-color: var(--primary-color-10);
+    color: var(--primary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
+.btn-load:hover {
+    color: var(--primary-color);
+}
