@@ -92,6 +92,33 @@ h2 {
 
 /* end of section best seller */
 
+/* footer section */
+
+#footer-section {
+    height: 300px;
+    width: 100%;
+    background-color: #111111;
+    margin-top: 100px;
+    color: white;
+    padding: 65px 0;
+    box-sizing: border-box;
+}
+
+#footer-section .logo-copyright {
+    margin-top: 30px;
+}
+
+#footer-section .logo-copyright p{
+    margin-top: 10px;
+}
+
+.footer-item a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 4px 0;
+}
+/* end of footer section */
 
 /* section review produk */
 
