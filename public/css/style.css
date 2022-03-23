@@ -139,16 +139,17 @@ footer span {
     margin-top: 100px;
 }
 
-#review-produk .item-service p{
+#review-produk .user-review p{
     margin-top: 5px;
     text-align: left;
 }
 
-#review-produk .item-service {
+#review-produk .user-review {
     box-shadow: 6px 6px 10px rgb(221, 216, 216);
     /* box-shadow: -6px -6px 10px rgb(221, 216, 216); */
     border-radius: 10px;
 }
+
 
 /* end of section review produk */
 
